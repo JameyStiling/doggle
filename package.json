@@ -1,0 +1,22 @@
+{
+  "name": "doggle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/koa-router": "^7.0.27",
+    "nodemon": "^1.14.7",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}
